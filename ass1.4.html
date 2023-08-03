@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Details</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding-top: 150px;
+      
+    }
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      padding-top: 200px;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    table th {
+      text-align: right;
+      background-color: lightblue;
+      width: 30%;
+    }
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      height: 150px;
+      background-image: url("logo.jpg");
+      background-size: cover;
+      
+      background-position: center;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+     
+    
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo"></div>
+    
+    <h1>Personal Details</h1>
+    <table>
+      <tr>
+        <th>Name:</th>
+        <td><input type="text" name="name" value="Nusrat Zahan Nila"></td>
+      </tr>
+      <tr>
+        <th>Class:</th>
+        <td><input type="text" name="class" value="3rd year 2nd semester"></td>
+      </tr>
+      <tr>
+        <th>Qualifications:</th>
+        <td><input type="text" name="qualifications" value="B.sc in EdTech"></td>
+      </tr>
+      <tr>
+        <th>Photo:</th>
+        <td>
+          <img src="https://via.placeholder.com/150" alt="Nusrat's Photo">
+        </td>
+      </tr>
+      <tr>
+        <th>Address:</th>
+        <td><textarea name="address" rows="4" cols="50" placeholder="Bogura, Bangladesh"></textarea></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
